@@ -186,3 +186,22 @@ main section{
 .resume-btn{
     margin-top:50px ;
 }
+/* Footer style  */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 110px;
+}
+.footer-column{
+    max-width: 50%;
+}
+footer input[type="text"],[type="email"],[type="textarea"],textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
